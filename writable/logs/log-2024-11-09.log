@@ -1,0 +1,123 @@
+CRITICAL - 2024-11-09 02:36:32 --> ErrorException: Undefined variable $homepage_Section
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 40.
+ 1 APPPATH\Views\home\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $homepage_Section', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:29:46 --> ErrorException: Undefined variable $img_slideshow
+[Method: GET, Route: /]
+in APPPATH\Views\template\css.php on line 221.
+ 1 APPPATH\Views\template\css.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img_slideshow', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\template\\css.php', 221)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\template\\css.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('template/css', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('template/css')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:30:30 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 110.
+ 1 APPPATH\Views\home\home.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 110)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:30:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 112.
+ 1 APPPATH\Views\home\home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 112)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:32:35 --> ErrorException: scandir(http://localhost/marketing/public/images/slideshow): Failed to open directory: not implemented
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(http://localhost/marketing/public/images/slideshow): Failed to open directory: not implemented', 'D:\\xampp\\htdocs\\marketing\\app\\Controllers\\Home.php', 41)
+ 2 APPPATH\Controllers\Home.php(41): scandir('http://localhost/marketing/public/images/slideshow')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:34:14 --> ErrorException: Undefined variable $img_slideshow
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 109.
+ 1 APPPATH\Views\home\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img_slideshow', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:35:21 --> ErrorException: Undefined variable $img_slideshow
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 109.
+ 1 APPPATH\Views\home\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img_slideshow', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:35:22 --> ErrorException: Undefined variable $img_slideshow
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 109.
+ 1 APPPATH\Views\home\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img_slideshow', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-09 06:56:39 --> ErrorException: Undefined variable $img_slideshow
+[Method: GET, Route: /]
+in APPPATH\Views\home\home.php on line 109.
+ 1 APPPATH\Views\home\home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img_slideshow', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php', 109)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\home\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('home/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

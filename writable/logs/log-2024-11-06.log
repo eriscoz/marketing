@@ -1,0 +1,24 @@
+CRITICAL - 2024-11-06 01:40:19 --> ErrorException: Undefined variable $source
+[Method: GET, Route: toMap]
+in APPPATH\Views\map.php on line 185.
+ 1 APPPATH\Views\map.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $source', 'D:\\xampp\\htdocs\\marketing\\app\\Views\\map.php', 185)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\xampp\\htdocs\\marketing\\app\\Views\\map.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('map', [], true)
+ 5 APPPATH\Controllers\Home.php(186): view('map', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->toMap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-06 08:37:45 --> TypeError: CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, CodeIgniter\HTTP\RedirectResponse given, called in D:\xampp\htdocs\marketing\app\Controllers\Home.php on line 121
+[Method: POST, Route: toLogin]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 36.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\HTTP\RedirectResponse->to(Object(CodeIgniter\HTTP\RedirectResponse))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->toLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
