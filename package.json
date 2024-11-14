@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "your-package": "git+https://eriscoz:@github.com/eriscoz/marketing.git"
-  }
-}
